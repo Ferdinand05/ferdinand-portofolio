@@ -1,0 +1,44 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/img/circle-scatter-haikei.svg);
+  background-size: cover;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer {
+  height: 65px;
+  background-color: #ffffff00;
+}
+#profile {
+  height: 400px;
+}
+.ferdinand,
+.aboutme {
+  font-weight: 200;
+}
+.ferdinand span {
+  font-weight: 400;
+}
+
+/* maps */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+#contact {
+  height: 550px;
+}
