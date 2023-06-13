@@ -3,10 +3,10 @@
 
 
 <?= $this->section('content'); ?>
-<section id="contact" class="mb-5">
+<section id="contact" class="mb-5 mt-3">
     <div class="container">
         <div class="row mt-3 mb-3">
-            <div class="col">
+            <div class="col-md">
                 <h2 class="text-center">Contact Us</h2>
             </div>
         </div>
@@ -58,13 +58,13 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class=" col">
-                <i class="bi bi-telephone-forward fs-4"> Phone</i>
+            <div class="col-md">
+                <i class="bi bi-telephone-forward fs-5"> Phone</i>
                 <p>+62 89238912</p>
             </div>
-            <div class="col">
-                <i class="bi bi-envelope-at fs-4"> Email</i>
-                <p>fkoryantoo@gmail.com</p>
+            <div class="col-md">
+                <i class="bi bi-envelope-at fs-5"> Email</i>
+                <p>fkoryanto@gmail.com</p>
             </div>
         </div>
     </div>

@@ -2,6 +2,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-image: url(/img/circle-scatter-haikei.svg);
   background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
 }
 
 footer li {
@@ -10,7 +12,6 @@ footer li {
 
 footer {
   height: 65px;
-  background-color: #ffffff00;
 }
 #profile {
   height: 400px;
@@ -22,7 +23,9 @@ footer {
 .ferdinand span {
   font-weight: 400;
 }
-
+nav {
+  background-color: #acacac3f;
+}
 /* maps */
 
 .mapouter {
@@ -40,5 +43,11 @@ footer {
 }
 
 #contact {
-  height: 550px;
+  padding: 7px;
+}
+
+@media screen and (max-width: 560px) {
+  #contact {
+    height: 999px;
+  }
 }
